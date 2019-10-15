@@ -1,26 +1,36 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#sec-1">1. Emacs</a>
-<ul>
-<li><a href="#sec-1-1">1.1. MELPA</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
+This repository contains instructions for setting up everything that I need
 
-This repo contains all of the basic necessities that I use.
+# Editors
 
-# Emacs<a id="sec-1" name="sec-1"></a>
+## Visual Studio Code
 
-I use the following resources. I also provide my init.el file (Needs updating).
+[Visual Studio Code](https://code.visualstudio.com/) is my current preferred general purpose editor.  
 
-## MELPA<a id="sec-1-1" name="sec-1-1"></a>
+### Extensions
+
+#### Must Have
+- Python
+- Vim
+- [VSpaceCode](https://github.com/VSpaceCode/VSpaceCode)
+
+#### Specific Use Case
+- Docker
+
+## Spacemacs<a id="sec-1" name="sec-1"></a>
+
+If using spacemacs, use my [dotspacemacs](https://github.com/waynchi/dotspacemacs) configuration
+
+### MELPA<a id="sec-1-1" name="sec-1-1"></a>
 
     (require 'package)
     (add-to-list
      'package-archives
      '("melpa" . "https://stable.melpa.org/packages/")
      t)
+     
+# Color Scheme
+
+I use the [Dracula](https://draculatheme.com/) theme.
+
+- [Visual Studio Code](https://draculatheme.com/visual-studio-code/)
+- [Powershell](https://github.com/dracula/powershell)
