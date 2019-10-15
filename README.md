@@ -34,3 +34,5 @@ I use the [Dracula](https://draculatheme.com/) theme.
 
 - [Visual Studio Code](https://draculatheme.com/visual-studio-code/)
 - [Powershell](https://github.com/dracula/powershell)
+  - The command to pull posh-git needs to be modified to  
+  `PowerShellGet\Install-Module posh-git -AllowPrerelease -Force`
